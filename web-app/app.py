@@ -3,7 +3,7 @@ import openai
 
 app=Flask(__name__)
 
-openai.api_key='sk-proj-IWNvr9t9p6YEgRGNOBjGT3BlbkFJLOY8F05879EQv5lWzVsU'
+openai.api_key='.txt'
 
 @app.route('/')
 def index():
