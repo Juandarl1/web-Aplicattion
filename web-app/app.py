@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
-import opentracing
+import openai
 
-app=Flask(__Proyecto__)
+app=Flask(__name__)
 
 openai.api_key='sk-proj-IWNvr9t9p6YEgRGNOBjGT3BlbkFJLOY8F05879EQv5lWzVsU'
 
